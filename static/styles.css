@@ -1,0 +1,31 @@
+.chat-message {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.chat-message.user {
+    justify-content: flex-end;
+}
+.chat-message.bot {
+    justify-content: flex-start;
+}
+
+.chat-message .message {
+    max-width: 90%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: #fff;
+}
+.chat-message.user .message {
+    background-color: #4CAF50;
+    border-bottom-right-radius: 0;
+}
+.chat-message.bot .message {
+    background-color: #2196F3;
+    border-bottom-left-radius: 0;
+}
+
+.button-container button {
+    width: 100%;
+    margin-bottom: 5px;
+}
